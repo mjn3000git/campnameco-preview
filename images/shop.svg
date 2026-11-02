@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img">
+<!-- Mock-up illustration for preview only. Replace with real shop photos. -->
+<rect width="600" height="400" fill="#2c3b2f"/><rect x="40" y="250" width="520" height="30" fill="#9c6a3a"/>
+<rect x="60" y="280" width="20" height="100" fill="#6b4226"/><rect x="520" y="280" width="20" height="100" fill="#6b4226"/>
+<rect x="150" y="200" width="300" height="50" fill="#c79a63"/><path d="M180 225 H420" stroke="#6b4226" stroke-width="4" stroke-dasharray="14 8"/>
+<rect x="280" y="80" width="40" height="110" fill="#e0b13b"/><rect x="290" y="190" width="20" height="14" fill="#555"/>
+<text x="300" y="60" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#f3e6cc">ROUTING A SIGN</text>
+</svg>

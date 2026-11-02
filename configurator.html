@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Design a sign | Camp Name Co. (preview)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Cinzel:wght@700&family=Rye&family=Satisfy&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="preview-bar">Preview mock-up, not a live store. Working name only.</div>
+<header class="site-header">
+  <a class="brand" href="index.html">Camp Name Co.<small>working name</small></a>
+  <button class="nav-toggle" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">Menu</button>
+  <nav class="site-nav"><a href="index.html">Home</a><a href="configurator.html" aria-current="page">Design a sign</a><a href="collections.html">Collections</a><a href="gifts.html">Gifts</a><a href="from-the-shop.html">From the shop</a><a href="about.html">About</a><a href="contact.html">Custom quote</a></nav>
+</header>
+<main>
+
+<section class="wrap">
+  <h1>Design your sign</h1>
+  <p>Pick your options and watch the preview update as you type. Final details are confirmed with you before anything is built.</p>
+  <div class="config">
+    <div class="preview-pane">
+      <div id="signPreview" class="sign-stage" aria-live="polite"></div>
+      <p id="summary" class="summary"></p>
+      <p class="price">Pricing coming soon</p>
+    </div>
+    <form id="configForm" class="config-form" onsubmit="return false">
+      <fieldset><legend>Shape</legend>
+        <label><input type="radio" name="shape" value="plank" checked> Plank</label>
+        <label><input type="radio" name="shape" value="arrow"> Arrow</label>
+        <label><input type="radio" name="shape" value="oval"> Oval</label>
+        <label><input type="radio" name="shape" value="number"> House number</label>
+      </fieldset>
+      <fieldset><legend>Wood</legend>
+        <label><input type="radio" name="wood" value="pine" checked> Pine <span class="price">Pricing coming soon</span></label>
+        <label><input type="radio" name="wood" value="cedar"> Cedar <span class="price">Pricing coming soon</span></label>
+        <label><input type="radio" name="wood" value="liveedge"> Live edge <span class="price">Pricing coming soon</span></label>
+        <label><input type="radio" name="wood" value="redwood"> Old-growth redwood <span class="price">Pricing coming soon</span></label>
+      </fieldset>
+      <label class="field">Size
+        <select name="size">
+          <option value="small">Small, about 18 in. wide</option>
+          <option value="medium" selected>Medium, about 30 in. wide</option>
+          <option value="large">Large, about 48 in. wide</option>
+          <option value="xl">Extra large, about 60 in. wide</option>
+        </select>
+      </label>
+      <label class="field">Font
+        <select name="font">
+          <option value="Rye">Camp (Rye)</option>
+          <option value="Cinzel">Classic (Cinzel)</option>
+          <option value="Bitter" selected>Lodge (Bitter)</option>
+          <option value="Satisfy">Script (Satisfy)</option>
+        </select>
+      </label>
+      <label class="field">Line 1 <input type="text" name="line1" maxlength="24" value="Camp Loon"></label>
+      <label class="field">Line 2 (optional) <input type="text" name="line2" maxlength="32" value=""></label>
+      <fieldset><legend>Add-ons</legend>
+        <label><input type="checkbox" name="lakeest"> Lake name + est. year</label>
+        <div id="lakeFields" class="sub" hidden>
+          <label class="field">Lake name <input type="text" name="lake" maxlength="24" value="Schroon Lake"></label>
+          <label class="field">Est. year <input type="text" name="year" maxlength="4" inputmode="numeric" value="1962"></label>
+        </div>
+        <label><input type="checkbox" name="posts"> Mounting posts <span class="price">Pricing coming soon</span></label>
+        <label><input type="checkbox" name="clear"> Clear coat <span class="price">Pricing coming soon</span></label>
+      </fieldset>
+      <a id="quoteBtn" class="btn" href="contact.html">Request a quote</a>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <p>Camp Name Co. (working name) · Handmade by Matthew J. Nothdurft · Adirondacks, NY</p>
+  <p class="small">Preview mock-up, not a live store. Images are illustrations, real shop photos to come.</p>
+</footer>
+<script src="configurator.js"></script>
+</body>
+</html>

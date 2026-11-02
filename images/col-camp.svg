@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img">
+<!-- Mock-up illustration for preview only. Replace with real shop photos. -->
+<defs><linearGradient id="wd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b7834f"/><stop offset=".5" stop-color="#9c6a3a"/><stop offset="1" stop-color="#83552c"/></linearGradient>
+<pattern id="grain" width="120" height="14" patternUnits="userSpaceOnUse"><path d="M0 7 Q30 2 60 7 T120 7" stroke="#6e4524" stroke-opacity=".35" fill="none" stroke-width="1.2"/></pattern></defs><rect width="600" height="400" fill="#e9dfc9"/><rect y="300" width="600" height="100" fill="#d8ccb1"/><rect x="80" y="130" width="440" height="140" rx="12" fill="url(#wd)" stroke="#4f2f19" stroke-width="5"/><rect x="80" y="130" width="440" height="140" rx="12" fill="url(#grain)"/><text x="300" y="195" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="40" fill="#3a2414">THE MILLERS</text><text x="300" y="240" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#3a2414">CAMP</text>
+</svg>
